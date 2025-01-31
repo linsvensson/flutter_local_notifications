@@ -1027,6 +1027,8 @@ void _evaluateBackgroundNotificationCallback(
         PluginUtilities.getCallbackHandle(callbackDispatcher);
 
     arguments['dispatcher_handle'] = dispatcher!.toRawHandle();
-    arguments['callback_handle'] = callback!.toRawHandle();
+    if (callback != null) {
+      arguments['callback_handle'] = callback.toRawHandle();
+    }
   }
 }
