@@ -1,5 +1,5 @@
 name: flutter_local_notifications
-repository: https://github.com/MaikuB/flutter_local_notifications
+repository: https://github.com/linsvensson/flutter_local_notifications
 packages:
   - flutter_local_notifications
   - flutter_local_notifications_linux
